@@ -1,7 +1,7 @@
 {
-  "name": "figma-noodles",
+  "name": "figma-noodles-btym",
   "version": "1.0.0",
-  "description": "Building figma noodles in lamina",
+  "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {

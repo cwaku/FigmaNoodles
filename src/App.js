@@ -11,7 +11,7 @@ export default function App() {
       <Bg />
       <Suspense fallback={null}>
         <Noodles />
-        <Caption>{`THE\nSEVENTY-TWO\nNAMES\nOF GOD.`}</Caption>
+        <Caption>{`NAHLÉDNĚTE\nDO SVĚTA\nELEKTRONOVÉ\nMIKROSKOPIE`}</Caption>
         <Rig />
       </Suspense>
     </Canvas>
@@ -23,8 +23,9 @@ function Caption({ children }) {
   return (
     <Text
       position={[0, 0, -5]}
-      lineHeight={0.8}
-      font="/Ki-Medium.ttf"
+      lineHeight={0.98}
+      letterSpacing={-0.03}
+      font="/HelveticaNeueLTW1G-Bd.otf"
       fontSize={width / 8}
       material-toneMapped={false}
       anchorX="center"
